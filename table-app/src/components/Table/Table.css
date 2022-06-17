@@ -1,0 +1,30 @@
+.my-table {
+  color: #fff;
+}
+
+.my-pagination .page-item .page-link {
+  color: #fff;
+  background-color: black;
+
+  cursor: pointer;
+}
+
+.my-pagination .page-item.active .page-link {
+  color: black;
+  background-color: white;
+
+  cursor: pointer;
+  border-color: white;
+}
+
+.sort-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 12px;
+}
+
+.filter-row {
+  overflow: show;
+}
